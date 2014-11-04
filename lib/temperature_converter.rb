@@ -13,6 +13,11 @@ class TemperatureConverter
     @value
   end
 
+  def to_celsius
+    if unit == :celsius
+      value
+    end
+  end
 
 
 
