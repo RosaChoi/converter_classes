@@ -17,7 +17,7 @@ describe TemperatureConverter do
     end
   end
 
-  describe '#to_celsius' do
+  xdescribe '#to_celsius' do
     xit "returns the original temperature when given celsius" do
       converter = TemperatureConverter.new(:celsius, 20)
 
