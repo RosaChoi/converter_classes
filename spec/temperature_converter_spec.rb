@@ -65,7 +65,7 @@ describe TemperatureConverter do
   end
 
   describe '#to_kelvin' do
-    xit "returns the original temperature when given fahrenheit" do
+    it "returns the original temperature when given fahrenheit" do
       converter = TemperatureConverter.new(:kelvin, 400)
 
       expect(converter.to_kelvin).to be == 400

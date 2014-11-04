@@ -33,6 +33,12 @@ class TemperatureConverter
     end
   end
 
+  def to_kelvin
+    if unit == :kelvin
+      value
+    end
+  end
+
 
 
 
