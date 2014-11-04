@@ -23,6 +23,12 @@ class TemperatureConverter
     end
   end
 
+  def to_fahrenheit
+    if unit == :fahrenheit
+      value
+    end
+  end
+
 
 
 

@@ -42,7 +42,7 @@ describe TemperatureConverter do
   end
 
   describe '#to_fahrenheit' do
-    xit "returns the original temperature when given fahrenheit" do
+    it "returns the original temperature when given fahrenheit" do
       converter = TemperatureConverter.new(:fahrenheit, 100)
 
       expect(converter.to_fahrenheit).to be == 100
