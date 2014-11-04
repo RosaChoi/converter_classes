@@ -16,6 +16,8 @@ class TemperatureConverter
   def to_celsius
     if unit == :celsius
       value
+    else unit == :kelvin
+      value - 273.15
     end
   end
 

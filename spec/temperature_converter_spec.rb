@@ -24,7 +24,7 @@ describe TemperatureConverter do
       expect(converter.to_celsius).to be == 20
     end
 
-    xit "returns the temperature in celsius when given kelvin" do
+    it "returns the temperature in celsius when given kelvin" do
       # The formula to convert kelvin to celsius is:
       # celsius_temperature = kelvin_temperature -  273.15
       converter = TemperatureConverter.new(:kelvin, 250)
