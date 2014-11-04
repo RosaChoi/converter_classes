@@ -26,6 +26,8 @@ class TemperatureConverter
   def to_fahrenheit
     if unit == :fahrenheit
       value
+    else unit == :celsius
+      value * (9.0/5.0) + 32.0
     end
   end
 

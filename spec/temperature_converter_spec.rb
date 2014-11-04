@@ -48,7 +48,7 @@ describe TemperatureConverter do
       expect(converter.to_fahrenheit).to be == 100
     end
 
-    xit "returns the temperature in fahrenheit when given celsius" do
+    it "returns the temperature in fahrenheit when given celsius" do
       # The formula to convert celsius to fahrenheit is:
       # fahrenheit_temperature = celsius_temperature * (9.0/5.0) + 32.0
       converter = TemperatureConverter.new(:celsius, 50)
