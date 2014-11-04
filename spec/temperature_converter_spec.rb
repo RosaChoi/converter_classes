@@ -56,7 +56,7 @@ describe TemperatureConverter do
       expect(converter.to_fahrenheit).to be == 122
     end
 
-    xit "return the temperature in fahrenheit when given kelvin" do
+    it "return the temperature in fahrenheit when given kelvin" do
       # What do you think the formula is?
       converter = TemperatureConverter.new(:kelvin, 300)
 
