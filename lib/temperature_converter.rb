@@ -36,11 +36,11 @@ class TemperatureConverter
   def to_kelvin
     if unit == :kelvin
       value
+    elsif unit == :celsius
+      value + 273.15
+    else unit == :fahrenheit
+      (value + 459.67) * 5 / 9
     end
   end
-
-
-
-
 
 end
